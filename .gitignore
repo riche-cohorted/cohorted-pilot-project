@@ -1,0 +1,41 @@
+# Bytecode & Python cache 
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments 
+.venv/
+venv/
+env/
+.env/
+
+# Logs & temp files *.log *.tmp *.bak1~# Logs & temp files
+*.log
+*.tmp
+*.bak
+
+# IDE & editor settings 
+.vscode/
+
+# Jupyter Notebook checkpoints 
+.ipynb_checkpoints/
+
+# Experiment outputs 
+results/ 
+outputs/ 
+figures/
+
+# Cache directories 
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Sensitive env & config files .env .envrc secrets.toml config.yaml local_settings.py1~# Sensitive env & config files
+.env
+.envrc
+secrets.toml
+config.yaml
+local_settings.py
+
+# Unignore example env template 
+!template.env
